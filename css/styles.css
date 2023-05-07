@@ -1,0 +1,108 @@
+
+/*********************************************
+********** General Styling *******************
+**********************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*********************************************
+********** Header, Nav styles ****************
+**********************************************/
+
+header {
+    background-color: #fafafa;
+    padding: 1.5rem;
+}
+
+nav {
+    font-weight: 400;
+    letter-spacing: .05em;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    max-width: 100%;
+}
+
+h1, .top-nav {
+    text-align: center;
+}
+
+h1 a, .top-nav a {
+    color: #000;
+}
+
+.top-nav, .top-nav li {
+    width: 100%;
+}
+
+.top-nav {
+    margin-top: 30px;
+}
+
+.top-nav li {
+    padding: 10px 0;
+    margin: 5px auto;
+    background-color: #fff;
+}
+
+.top-nav a {
+    text-transform: uppercase;
+}
+
+/*********************************************
+********** Mobile styles 768px ***************
+**********************************************/
+
+@media (min-width: 768px) {
+    .top-nav {
+        margin-top: 0;
+    }
+
+    .top-nav li {
+        display: inline-block;
+        width: auto;
+        margin-right: 15px;
+        background-color: transparent;
+    }
+
+    .top-nav li:last-child {
+        margin-right: 0;
+    }
+}
+
+/*********************************************
+********** Mobile styles 1024px **************
+**********************************************/
+
+@media (min-width: 1024px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top-nav,
+    .top-nav li {
+        width: initial;
+        margin-bottom: 0;
+    }
+}
