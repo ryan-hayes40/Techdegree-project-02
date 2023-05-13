@@ -72,9 +72,15 @@ img {
 }
 
 .line {
-    width: 90%;
-    margin: auto;
-    border-top: 1px solid #ddd8d8;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding: 0 1.4rem;
+}
+
+.line hr {
+    width: 100%;
+    border: .5px solid #e5e3e3;
 }
 
 /*********************************************
@@ -277,11 +283,6 @@ footer {
         margin: 0 .5rem 3rem;
     }
 
-    .line {
-        width: 96%;
-        margin: auto;
-    }
-
     ul.skills {
         padding: 0;
     }
@@ -320,8 +321,12 @@ footer {
         padding: 4rem;
     }
 
-    footer {
+    footer,
+    .line {
         padding: 0 4.2rem;
+    }
+
+    footer {
         height: 75px;
     }
 
@@ -351,7 +356,4 @@ footer {
         margin-left: 2.5rem;
     }
 
-    .line {
-        width: 87%;
-    }
 }
