@@ -24,6 +24,7 @@ ul {
 
 h1 {
     font-family: 'Audiowide', cursive;
+    color: firebrick;
 }
 
 a {
@@ -111,7 +112,6 @@ h1,
     text-align: center;
 }
 
-h1 a,
 .top-nav a {
     color: #4a4a4a;
 }
