@@ -246,6 +246,7 @@ footer {
 
     .line {
         width: 96%;
+        margin: auto;
     }
 
     .full {
