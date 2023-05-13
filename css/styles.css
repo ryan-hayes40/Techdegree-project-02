@@ -22,6 +22,10 @@ ul {
     padding-left: 0;
 }
 
+h1 {
+    font-family: 'Audiowide', cursive;
+}
+
 a {
     text-decoration: none;
 }
