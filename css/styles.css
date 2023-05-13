@@ -276,7 +276,7 @@ footer {
     }
 
     .col {
-        flex-basis: calc(33.333% - 20px);
+        flex-basis: calc(33.333% - 17px);
     }
     header {
         padding: 4rem;
